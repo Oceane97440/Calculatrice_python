@@ -29,10 +29,10 @@ def addition_click():
 button_add = tk.Button(
   master=window,
     text="+",
-    width=5,
-    height=5,
+    width=1,
+    height=1,
     bg="blue",
-    fg="black",
+    fg="white",
     command=addition_click 
 )
 
@@ -53,10 +53,10 @@ def soustration_click():
 button_soustraire = tk.Button(
   master=window,
     text="-",
-     width=5,
-    height=5,
+     width=1,
+    height=1,
     bg="blue",
-    fg="black",
+    fg="white",
     command=soustration_click 
 )
 
@@ -77,10 +77,10 @@ def multiplication_click():
 button_multiplier = tk.Button(
   master=window,
     text="*",
-    width=5,
-    height=5,
+    width=1,
+    height=1,
     bg="blue",
-    fg="black",
+    fg="white",
     command=multiplication_click 
 )
 
@@ -102,16 +102,12 @@ def division_click():
 button_diviser = tk.Button(
   master=window,
     text="/",
-    width=5,
-    height=5,
+    width=1,
+    height=1,
     bg="blue",
-    fg="black",
+    fg="white",
     command=division_click 
 )
-
-
-
-
 
 
 
